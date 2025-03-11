@@ -1,0 +1,219 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF14144.hmm
+# target sequence database:        protein.faa
+# sequence reporting threshold:    E-value <= 1e-05
+# domain reporting threshold:      E-value <= 1e-05
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       DOG1  [M=77]
+Accession:   PF14144.11
+Description: Seed dormancy control
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+      2e-32  112.4   0.0    6.6e-32  110.7   0.0    2.0  1  KAJ8646412.1  hypothetical protein MRB53_008160 [Persea ameri
+    2.1e-32  112.3   0.0      6e-32  110.9   0.0    1.8  1  KAJ8648646.1  hypothetical protein MRB53_001669 [Persea ameri
+    3.7e-32  111.5   0.0    1.2e-31  109.9   0.0    2.0  1  KAJ8645215.1  hypothetical protein MRB53_006963 [Persea ameri
+    4.6e-32  111.2   0.0    1.6e-31  109.5   0.0    2.0  1  KAJ8619221.1  hypothetical protein MRB53_015407 [Persea ameri
+    2.3e-31  109.0   0.0    6.4e-31  107.6   0.0    1.8  1  KAJ8646667.1  hypothetical protein MRB53_008415 [Persea ameri
+      3e-31  108.6   0.1    9.1e-31  107.1   0.0    1.9  1  KAJ8638079.1  hypothetical protein MRB53_012346 [Persea ameri
+    3.3e-31  108.5   0.0      1e-30  106.9   0.0    1.9  1  KAJ8639963.1  hypothetical protein MRB53_016657 [Persea ameri
+    2.4e-30  105.7   0.1    8.3e-30  104.0   0.1    2.0  1  KAJ8643558.1  hypothetical protein MRB53_005306 [Persea ameri
+    2.6e-30  105.6   0.0    8.4e-30  104.0   0.0    1.9  1  KAJ8647105.1  hypothetical protein MRB53_000128 [Persea ameri
+    3.4e-29  102.0   0.1      1e-28  100.5   0.1    1.9  1  KAJ8640873.1  hypothetical protein MRB53_017567 [Persea ameri
+      3e-27   95.8   0.1      9e-27   94.3   0.1    1.8  1  KAJ8625515.1  hypothetical protein MRB53_034045 [Persea ameri
+    9.6e-27   94.2   0.1    2.3e-26   93.0   0.1    1.6  1  KAJ8626624.1  hypothetical protein MRB53_019931 [Persea ameri
+    2.6e-20   73.6   0.4    5.4e-20   72.6   0.4    1.6  1  KAJ8626623.1  hypothetical protein MRB53_019930 [Persea ameri
+
+
+Domain annotation for each sequence (and alignments):
+>> KAJ8646412.1  hypothetical protein MRB53_008160 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.7   0.0     2e-35   6.6e-32       1      76 [.     266     341 ..     266     342 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 110.7 bits;  conditional E-value: 2e-35
+                   HHHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG CS
+          DOG1   1 qlkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellklly 76 
+                   q++eLr a++sha d+eLr +v++v++hye+++r+k  aakadv+h+ls++Wktp+Er+flWlgGfR+sellkll+
+  KAJ8646412.1 266 QINELRGAVNSHAGDNELRIIVDNVVSHYEDIFRLKGIAAKADVFHVLSGMWKTPAERCFLWLGGFRSSELLKLLV 341
+                   689***********************************************************************95 PP
+
+>> KAJ8648646.1  hypothetical protein MRB53_001669 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.9   0.0   1.8e-35     6e-32       1      77 []     266     342 ..     266     342 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 110.9 bits;  conditional E-value: 1.8e-35
+                   HHHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG. CS
+          DOG1   1 qlkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellkllys 77 
+                   q++eLr+a++sha daeLr +v+ v +hy+e++r+k  aakadv+h+ls++Wktp+Er+flWlgGfR+sellkll+s
+  KAJ8648646.1 266 QVNELRNAVNSHAGDAELRIIVDGVASHYDEIFRLKGIAAKADVFHVLSGMWKTPAERCFLWLGGFRSSELLKLLVS 342
+                   689***********************************************************************975 PP
+
+>> KAJ8645215.1  hypothetical protein MRB53_006963 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.9   0.0   3.7e-35   1.2e-31       2      76 ..     253     327 ..     252     328 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 109.9 bits;  conditional E-value: 3.7e-35
+                   HHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG CS
+          DOG1   2 lkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellklly 76 
+                   ++eLraa+q+h +++eLr  v+++lahy+e+++aks+ +k+dv+h++s++Wktp+Er+f+W+gGfRPs l+k++ 
+  KAJ8645215.1 253 MCELRAAVQEHLPENELRLFVDNCLAHYDELMNAKSMIVKSDVFHIVSGMWKTPAERCFMWMGGFRPSDLIKIIL 327
+                   78**********************************************************************985 PP
+
+>> KAJ8619221.1  hypothetical protein MRB53_015407 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.5   0.0   4.8e-35   1.6e-31       2      76 ..     196     270 ..     195     271 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 109.5 bits;  conditional E-value: 4.8e-35
+                   HHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG CS
+          DOG1   2 lkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellklly 76 
+                   ++eLr+alq+h sd eLr lv++ ++hy++++r+k  aak+dv++l+s++Wktp+Er+flW+gGfRPsellk+l 
+  KAJ8619221.1 196 TCELRTALQAHVSDFELRILVDSSMSHYDNLFRMKTIAAKSDVFYLMSGMWKTPAERFFLWIGGFRPSELLKVLS 270
+                   579*********************************************************************996 PP
+
+>> KAJ8646667.1  hypothetical protein MRB53_008415 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.6   0.0     2e-34   6.4e-31       1      77 []     240     316 ..     240     316 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 107.6 bits;  conditional E-value: 2e-34
+                   HHHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG. CS
+          DOG1   1 qlkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellkllys 77 
+                   ++++L+aa++s + d+eLr lv++v++hy+e++r+ks+ ak+dv+h+ls++W+tp+Er+f+WlgGfR+sell+ll+s
+  KAJ8646667.1 240 HINDLKAAVNSYMGDSELRFLVDAVMSHYDELFRLKSVGAKSDVFHILSGMWNTPAERCFMWLGGFRSSELLRLLVS 316
+                   689***********************************************************************975 PP
+
+>> KAJ8638079.1  hypothetical protein MRB53_012346 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.1   0.0   2.8e-34   9.1e-31       2      77 .]     379     454 ..     378     454 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 107.1 bits;  conditional E-value: 2.8e-34
+                   HHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG. CS
+          DOG1   2 lkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellkllys 77 
+                   ++eLraa+q+h +d+ Lr  v+++lahy e++++ks+a+k+dv+hl+s++Wktp+Er+f+W+gGfRPs l+k+++s
+  KAJ8638079.1 379 MCELRAAVQEHLPDNGLRLFVDNCLAHYGELMSLKSVAVKSDVFHLYSGMWKTPAERCFMWMGGFRPSDLIKVIVS 454
+                   89***********************************************************************975 PP
+
+>> KAJ8639963.1  hypothetical protein MRB53_016657 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.9   0.0   3.2e-34     1e-30       1      76 [.     266     341 ..     266     342 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 106.9 bits;  conditional E-value: 3.2e-34
+                   HHHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG CS
+          DOG1   1 qlkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellklly 76 
+                   +++eLra lq+h sd +Lr +++ +l+hy+e++r+k  aak+dv+hl++++W+tp+Er+f+W+gGfRPsellk+l+
+  KAJ8639963.1 266 HMSELRAGLQAHLSDGDLRVILDGCLSHYDEIFRLKGIAAKSDVFHLITGMWTTPAERCFIWMGGFRPSELLKILV 341
+                   699**********************************************************************996 PP
+
+>> KAJ8643558.1  hypothetical protein MRB53_005306 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.0   0.1   2.5e-33   8.3e-30       2      74 ..     265     337 ..     264     340 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 104.0 bits;  conditional E-value: 2.5e-33
+                   HHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHH CS
+          DOG1   2 lkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellkl 74 
+                   l+eLraalq++ +++eLr  v+++ ahy++++++ks++ kadv+h++s++Wktp+Er+f+W+g+fRPsel+k+
+  KAJ8643558.1 265 LCELRAALQEQLPENELRMFVDSCFAHYDQMMNLKSMMLKADVFHIVSGMWKTPAERCFMWMGDFRPSELIKM 337
+                   68*********************************************************************97 PP
+
+>> KAJ8647105.1  hypothetical protein MRB53_000128 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.0   0.0   2.6e-33   8.4e-30       1      76 [.     165     240 ..     165     241 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 104.0 bits;  conditional E-value: 2.6e-33
+                   HHHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG CS
+          DOG1   1 qlkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellklly 76 
+                   q++eLr+alqs+ +d eL+ lve+ ++hye++++ ks aa++dv++l+s++Wktp Er+flW+gGfRPsellk+l 
+  KAJ8647105.1 165 QIHELRTALQSQVTDIELHILVESGMKHYENLFQIKSIAARSDVFYLISGMWKTPSERFFLWIGGFRPSELLKVLT 240
+                   689**********************************************************************996 PP
+
+>> KAJ8640873.1  hypothetical protein MRB53_017567 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.5   0.1   3.1e-32     1e-28       2      76 ..     318     392 ..     317     393 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 100.5 bits;  conditional E-value: 3.1e-32
+                   HHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG CS
+          DOG1   2 lkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellklly 76 
+                   ++eLr+a+q+  ++++L+  v+++l hy+e++++ks+a+k+dv+hl+s+ Wktp+Er+f+W+gGfRPsel+k+l 
+  KAJ8640873.1 318 MSELRSAVQEDLPENDLSLFVHNCLVHYDEMMSLKSMAVKSDVFHLISGVWKTPAERCFMWMGGFRPSELIKVLL 392
+                   89*******9**************************************************************996 PP
+
+>> KAJ8625515.1  hypothetical protein MRB53_034045 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.3   0.1   2.8e-30     9e-27       2      77 .]      33     109 ..      32     109 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 94.3 bits;  conditional E-value: 2.8e-30
+                   HHHHHHHTTTT.--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG. CS
+          DOG1   2 lkeLraalqsh.asdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellkllys 77 
+                   l++L aa ++   +++ Lr+lv++vl+hy++yy  ks+  k+dvl++lsp+W+++lE+aflW+gG+RP+ +++llys
+  KAJ8625515.1  33 LQQLLAAARTGdGEEDRLRHLVNEVLRHYKNYYANKSRSGKKDVLAVLSPSWTSTLEEAFLWIGGWRPTVAVHLLYS 109
+                   67899999755366778**********************************************************97 PP
+
+>> KAJ8626624.1  hypothetical protein MRB53_019931 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.0   0.1     7e-30   2.3e-26       2      77 .]      24     100 ..      23     100 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 93.0 bits;  conditional E-value: 7e-30
+                   HHHHHHHTT.TT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG. CS
+          DOG1   2 lkeLraalq.shasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellkllys 77 
+                   l+eL +a +  +++++ L ++v+k+l+hye+y++ + ++a++d+ +l+sptW+t+lE++flW++G+RPs+ ++l+ys
+  KAJ8626624.1  24 LQELLHATSqDAQDEQTLCSVVSKTLQHYEDYCERRTHLAQEDAASLFSPTWCTSLENSFLWIAGCRPSMSIRLIYS 100
+                   78999999525567778**********************************************************97 PP
+
+>> KAJ8626623.1  hypothetical protein MRB53_019930 [Persea americana]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.6   0.4   1.6e-23   5.4e-20       2      76 ..      19      93 ..       2      94 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 72.6 bits;  conditional E-value: 1.6e-23
+                  HHHHHHHTTTT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTS-HHHHHT-CTTC--HHHHHHHHG CS
+          DOG1  2 lkeLraalqshasdaeLrelvekvlahyeeyyraksaaakadvlhllsptWktplEraflWlgGfRPsellklly 76
+                  l++L +  + + ++ + r++v +++ h  +yy  k+aaa+a vl+l+sptW t++E a+lW++G++Ps++++l+ 
+  KAJ8626623.1 19 LQQLLSVPRDSTHEPQQRAMVARAIGHITHYYAIKRAAAHASVLALFSPTWLTSFEIACLWMTGWKPSLAFRLVD 93
+                  56777777666788899********************************************************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (77 nodes)
+Target sequences:                      42442  (14837456 residues searched)
+Passed MSV filter:                      1073  (0.0252816); expected 848.8 (0.02)
+Passed bias filter:                      940  (0.0221479); expected 848.8 (0.02)
+Passed Vit filter:                        69  (0.00162575); expected 42.4 (0.001)
+Passed Fwd filter:                        14  (0.000329862); expected 0.4 (1e-05)
+Initial search space (Z):              42442  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 0.15u 0.01s 00:00:00.16 Elapsed: 00:00:00.07
+# Mc/sec: 14750.78
+//
+[ok]
